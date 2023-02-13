@@ -3,19 +3,26 @@ import { Link } from "react-router-dom"
 
 const HomeComponent = () => {
   return (
-    <div className="container mx-auto px-4 py-4">
-      <h1 className="text-3xl text-center font-bold">Advanced React</h1>
-      <ul className="list-disc">
-        <li>
-          <Link to="/lazy">Lazy Loading</Link>
-        </li>
-        <li>
-          <Link to="/debouncing">Debouncing</Link>
-        </li>
-      </ul>
-      <div>
-        <button>Prev</button>
-        <button>Next</button>
+    <div className="container flex-col justify-center mx-auto px-4 py-4 mt-6">
+      <div className="flex justify-center">
+        <h1 className="flex text-6xl text-center font-bold">Advanced React</h1>
+      </div>
+      <div className="flex justify-center mt-5">
+        <ul className="list-disc">
+          <li className="text-2xl my-5">
+            <Link to="/lazy">Lazy Loading</Link>
+          </li>
+          <li className="text-2xl my-5">
+            <Link to="/debouncing">Debouncing</Link>
+          </li>
+          <li className="text-2xl my-5">
+            <Link to="/forwardingref">Forwarding Ref</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="flex justify-center py-4 px-4">
+        <button className="btn btn-blue">Prev</button>
+        <button className="btn btn-blue ml-4">Next</button>
       </div>
     </div>
   )
