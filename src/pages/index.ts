@@ -1,7 +1,9 @@
-import HomeComponent from "./Home";
-import ForwardingRefComponent from "./ForwardingRef";
+import HomePage from "./Home";
+import ForwardingRefPage from "./ForwardingRef";
+import PortalPage from "./Portal";
 
 export {
-  HomeComponent,
-  ForwardingRefComponent
+  HomePage,
+  ForwardingRefPage,
+  PortalPage
 }

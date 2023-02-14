@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { HomeComponent } from './pages';
-import { ForwardingRefComponent } from './pages';
+import { HomePage, ForwardingRefPage, PortalPage } from './pages';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomeComponent />}></Route>
-        <Route path='/forwardingref' element={<ForwardingRefComponent />}></Route>
+        <Route path='/' element={<HomePage />}></Route>
+        <Route path='/forwardingref' element={<ForwardingRefPage />}></Route>
+        <Route path='/portal' element={<PortalPage />}></Route>
       </Routes>
     </BrowserRouter>
   );

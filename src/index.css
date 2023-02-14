@@ -15,4 +15,8 @@
   .btn-secondary {
     @apply py-2 px-10 lg: px-8 xl:px-10 inline-flex items-center justify-center text-center text-black text-base bg-white hover:bg-opacity-90 border font-normal rounded-sm;
   }
+
+  .modal {
+    @apply absolute flex items-center justify-evenly top-5 bottom-7;
+  }
 }

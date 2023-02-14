@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { TextInputComponent, PlayVideoComponent } from "../../components";
+import { TextInputComponent, PlayVideoComponent } from "../../components/ForwardingRef";
 
-const ForwardingRefComponent = () => {
+const ForwardingRefPage = () => {
   return (
     <div className="container flex-col justify-center mx-auto px-4 py-4 mt-6">
       <Link to="/" className="btn absolute">Back</Link>
@@ -36,4 +36,4 @@ const ForwardingRefComponent = () => {
   )
 }
 
-export default ForwardingRefComponent;
+export default ForwardingRefPage;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-const HomeComponent = () => {
+const HomePage = () => {
   return (
     <div className="container flex-col justify-center mx-auto px-4 py-4 mt-6">
       <div className="flex justify-center">
@@ -21,6 +21,9 @@ const HomeComponent = () => {
           <li className="text-2xl my-5">
             <Link to="/forwardingref">Forwarding Ref</Link>
           </li>
+          <li className="text-2xl my-5">
+            <Link to="/portal">Portal</Link>
+          </li>
         </ul>
       </div>
       <div className="flex justify-center py-4 px-4">
@@ -31,4 +34,4 @@ const HomeComponent = () => {
   )
 }
 
-export default HomeComponent;
+export default HomePage;
