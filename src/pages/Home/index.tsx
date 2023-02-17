@@ -24,6 +24,9 @@ const HomePage = () => {
           <li className="text-2xl my-5">
             <Link to="/portal">Portal</Link>
           </li>
+          <li className="text-2xl my-5">
+            <Link to="/suspense">Suspense</Link>
+          </li>
         </ul>
       </div>
       <div className="flex justify-center py-4 px-4">
