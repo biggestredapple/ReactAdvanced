@@ -10,6 +10,9 @@ const HomePage = () => {
       <div className="flex justify-center mt-5">
         <ul className="list-disc">
           <li className="text-2xl my-5">
+            <Link to="/infinitescroll">Infinite Scroll</Link>
+          </li>
+          <li className="text-2xl my-5">
             <Link to="/errorboundary">Error boundary</Link>
           </li>
           <li className="text-2xl my-5">
